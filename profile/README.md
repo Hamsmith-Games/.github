@@ -1,6 +1,13 @@
-<h1 align="center">
-	Hamsmith
-</h1>
+<p align="center">
+	<img align="center" src="logo-512.png" />
+</p>
+
+<br/>
+<br/>
+
+<h1>Who?</h1>
+
+Hamsmith is a small independent software development studio with a strong focus on all things gaming and entertainment. We reside in the small, sunny town of Blenheim, New Zealand where we slave away on our currently unrealeased projects.
 
 <!--
 
