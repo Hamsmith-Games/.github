@@ -1,0 +1,21 @@
+/*
+ * Hamsmith Website
+ * Copyright (C) 2022  Hamsmith Ltd.
+ */
+
+:root {
+	--body-background: #313233;
+	--nav-background: #696969;
+
+	--color-ham: #ff7800;
+	--color-smith: #68f9ff;
+	--color-emboss: #9d9e9f;
+
+	--nav-height: 10vh;
+	--nav-logo-height: 20vh;
+}
+
+@font-face {
+	font-family: "Press Start 2P";
+	src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+}

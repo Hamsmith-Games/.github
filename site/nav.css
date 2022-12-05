@@ -1,0 +1,48 @@
+/*
+ * Hamsmith Website
+ * Copyright (C) 2022  Hamsmith Ltd.
+ */
+
+@import "globals.css";
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: var(--nav-height);
+	display: flex;
+
+	image-rendering: pixelated;
+	background-color: var(--nav-background);
+	background-image: url("images/hilt-base.png");
+	background-size: auto 100%;
+}
+
+#nav-logo::before {
+	position: fixed;
+	height: var(--nav-logo-height);
+	width: calc(var(--nav-logo-height) * 2.333333333333333);
+	margin: 0 auto 0 auto;
+
+	content: ""; /* empty but necessary */
+
+	image-rendering: pixelated;
+	background-image: url("images/hilt-deco.png");
+	background-position: bottom;
+	background-size: auto 100%;
+}
+
+#nav-logo {
+	height: var(--nav-logo-height);
+	margin: 0 auto 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+#nav-logo-img {
+	position: relative;
+	height: calc(var(--nav-height) + (var(--nav-height) * 0.4));
+	margin: 0 auto 0 auto;
+	z-index: 99;
+
+	image-rendering: pixelated;
+}
